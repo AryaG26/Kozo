@@ -115,6 +115,10 @@ h1{
     font-weight: 800;
 }
 
+.rectangle-feature {
+    position: relative;
+    background-color: #FCFBFF ;
+}
 .left {
     display: flex;
     flex-direction: column;
@@ -249,7 +253,7 @@ h1{
     .box .overlap-group {
         position: relative;
         width: 1368px;
-        height: 200px;
+        height: 150px;
     }
     .box .rectangle {
         position: absolute;
@@ -262,32 +266,30 @@ h1{
         position: absolute;
         width: 1366px;
         height: 200px;
-        top: 29px;
+        top: 60px;
         font-family: "Montserrat-ExtraBold", Helvetica;
-        font-weight: 800;
+        font-weight: 650;
         color: #fcfbff;
         font-size: 50px;
         text-align: center;
     }
-    .box .div {
+    .box .mail-id {
         position: absolute;
         width: 366px;
         height: 77px;
-        top: 154px;
+        top: 198px;
         left: 463px;
         font-family: "Montserrat-Medium", Helvetica;
         font-weight: 500;
         color: #ffffff;
         font-size: 22px;
-        letter-spacing: 0;
-        line-height: normal;
         text-decoration: underline;
     }
     .box .text-wrapper-2 {
         position: absolute;
         width: 366px;
         height: 77px;
-        top: 156px;
+        top: 198px;
         left: 755px;
         font-family: "Montserrat-Medium", Helvetica;
         font-weight: 500;
@@ -299,7 +301,7 @@ h1{
         position: absolute;
         width: 30px;
         height: 30px;
-        top: 180px;
+        top: 198px;
         left: 419px;
         object-fit: cover;
     }
@@ -307,7 +309,7 @@ h1{
         position: absolute;
         width: 25px;
         height: 25px;
-        top: 184px;
+        top: 198px;
         left: 721px;
         object-fit: cover;
     }
