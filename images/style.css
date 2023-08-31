@@ -1,0 +1,125 @@
+:root{
+    --dark-purple-color : #4119B2;
+    --light-purple-color : #FCFBFF;
+    --white-color : #FFFFFF;
+    --text-light-grey-color: #4443439E ;
+    --black-color: #000000;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper{
+    max-width: 1134px;
+    margin-top:0 auto;
+}
+
+header{
+    background-color: #4119B2;
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    padding-left: 36px;
+    justify-content: space-between;
+}
+
+nav img{
+    padding-top: 36px;
+    height: 80px;
+}
+nav ul{
+    padding: 36px;
+    padding-left: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a{
+    color: #FFF;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.home-page{
+    display: flex;
+    height: 79.6lvh;
+    width: 100%;
+    background-color: #4119B2;
+    justify-content: space-between;
+    
+}
+
+.home-page .left h2{
+    position: absolute;
+    width: 600px;
+    height: 234px;
+    top: 35;
+    padding-left: 36px;
+    font-family: "Montserrat-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 48px;
+}
+
+.home-page .left p{
+    padding-left: 36px;
+    font-family: Exo;
+    font-size: 18px;
+    font-weight: 150px;
+    position: absolute;
+    width: 537px;
+    height: 312px;
+    top: 400px;
+    left: 0;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;   
+}
+
+.home-page .right{
+    display: flex;
+    align-self: start;
+}
+.home-page .right img{
+    height: 450px;
+}
+
+/* End of Home Page */
+
+/* Begin Feature Page */
+.section .features-section{
+    color: #FCFBFF;
+    margin:0 auto;
+}
+
+h1{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.section .contact-section{
+    display: flex;
+    height: 79.6lvh;
+    width: 100%;
+    background-color: #4119B2;
+    justify-content: space-between;
+}
